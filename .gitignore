@@ -216,3 +216,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Environment variables
+.env
+
+# Project data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# GIS files
+*.gpkg
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.citygml
+*.gml
+
+# Local databases
+*.db
+*.sqlite
+
+# Frontend
+node_modules/
+dist/
+
+# macOS
+.DS_Store
